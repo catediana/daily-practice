@@ -1,3 +1,11 @@
+#Exercise 2: File Handling with FileNotFoundError
+
+#Instructions:
+
+#Write a program that attempts to open and read data from a file specified by the user.
+#Handle the FileNotFoundError exception to provide a meaningful message if the file does not exist.
+
+
 def read_file():
     # Prompt user to enter the file name
     file_name = input("Enter the name of the file to read (including the extension): ")
